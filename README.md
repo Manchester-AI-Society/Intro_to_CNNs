@@ -2,6 +2,15 @@
 
 This is for the workshop on CNNs. The notebooks outline 4 different topics which all feed into understanding CNNs.
 
+## Sample outputs
+
+Left to right, top to bottom: hand-designed kernels from notebook 2, the average saliency per digit class from notebook 3, what each stage of the Imagenette net sees from notebook 4, and Grad-CAM on a pretrained ResNet50 from notebook 3.
+
+| | |
+|---|---|
+| ![Classic kernels applied by hand](images/readme_kernels.png) | ![Average saliency per digit class](images/readme_saliency.png) |
+| ![What each stage of the network sees](images/readme_features.png) | ![Grad-CAM on a pretrained ResNet50](images/readme_gradcam.png) |
+
 ## The notebooks
 
 - `01_feedforward_neural_networks.ipynb`: trains an FNN on MNIST (about 98% test accuracy), then uses saliency maps and a scrambled-pixel test to show it never used the image's 2D structure.
